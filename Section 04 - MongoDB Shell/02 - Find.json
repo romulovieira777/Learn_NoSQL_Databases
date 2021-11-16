@@ -1,0 +1,8 @@
+db.students.find (
+	{enrolledClass: "Computer Science"}
+)
+
+
+db.students.find (
+	{age: {$gt: 24}}
+)

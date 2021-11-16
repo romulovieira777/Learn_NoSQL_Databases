@@ -1,0 +1,9 @@
+db.students.insertMany (
+	[
+		{name: "Mark", age: 23, enrolledClass: "Math"},
+		{name: "Dean", age: 24, enrolledClass: "Computer Science"},
+		{name: "Thomas", age: 21, enrolledClass: "Math"},
+		{name: "Camilla", age: 25, enrolledClass: "Computer Science"},
+		{name: "Tim", age: 27, enrolledClass: "Math"},
+	]
+)

@@ -1,0 +1,6 @@
+db.students.remove(
+	{"name": "Tim"}
+)
+
+
+db.students.find()

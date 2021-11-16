@@ -1,0 +1,14 @@
+db.students.update(
+	{"enrolledClass": "Math"}, {$set: {"enrolledClass": "Computer Science"}}
+)
+
+
+db.students.find()
+
+
+db.students.update(
+	{"enrolledClass": "Math"}, {$set: {"enrolledClass": "Computer Science"}}, {multi: true}
+)
+
+
+db.students.find()
