@@ -1,5 +1,5 @@
 # Learn NoSQL Databases 💻 :game_die:
-## Learn NoSQL Databases - Complete MongoDB Bootcamp 2021 [Udemy](https://www.udemy.com/course/learn-nosql-databases-complete-mongodb-bootcamp-2019/)
+## Course Learn NoSQL Databases - Complete MongoDB Bootcamp 2021 at [Udemy](https://www.udemy.com/course/learn-nosql-databases-complete-mongodb-bootcamp-2019/)
 #### :computer: Temas abordados durante o curso foram: :rocket:
 - Section 01 - Introduction
 - Section 02 - Install and Setup MongoDB Server
