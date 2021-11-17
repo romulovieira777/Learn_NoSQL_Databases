@@ -1,0 +1,39 @@
+db.students.update(
+	{"name": "Mark"}, {$set: {"city": "New York"}}
+)
+
+
+db.students.find()
+
+
+db.students.update(
+	{"name": "Camilla"}, {$set: {"city": "London"}}
+)
+
+db.students.find()
+
+
+db.students.update(
+	{"name": "Dean"}, {$set: {"city": "Cuba"}}
+)
+
+
+db.students.find()
+
+
+db.students.aggregate(
+	{"$group": {"_id": null, "studentsCities": {"$addToSet": "$city"}}}
+)
+
+
+db.students.update(
+	{"name": "Thomas"}, {$set: {"city": "Copenhagen"}}
+)
+
+
+db.students.find()
+
+
+db.students.aggregate(
+	{"$group": {"_id": null, "studentsCities": {"$addToSet": "$city"}}}
+)
