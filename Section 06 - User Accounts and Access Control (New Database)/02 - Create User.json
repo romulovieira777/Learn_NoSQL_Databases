@@ -1,0 +1,11 @@
+db
+
+
+db.createUser({
+	user: "animalUser",
+	pwd: " ",
+	roles: ["read"]
+})
+
+
+show users

@@ -1,0 +1,20 @@
+use animals
+
+
+mongo animals -u animalUser -p test --authenticationDatabase animals
+
+
+db.createUser({
+	user: "writetest",
+	pwd: "test",
+	roles: ["readWrite"]
+})
+
+
+db.animals.find()
+
+
+db.animals.insert({"name": "Monkey"})
+
+
+db.animals.find()

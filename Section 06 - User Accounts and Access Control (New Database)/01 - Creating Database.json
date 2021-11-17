@@ -1,0 +1,9 @@
+use animals
+
+
+db.animals.insert(
+	{"name": "Lion"}
+)
+
+
+show dbs
